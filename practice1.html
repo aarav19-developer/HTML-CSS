@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            background-color: gray;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            
+        }
+        button:hover{
+            background-color: red;
+            cursor: pointer;
+        }
+        button{
+            transition: background 0.3s, transform 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <button>Hover me</button>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 80px;
+            height: 80px;
+            margin: 10px;
+            background-color: red;
+            display: inline-block;
+            text-align: center;
+            line-height: 80px;
+            font-family: initial;
+            transition: transform 0.3s;
+        }
+        #translate:hover{ transform: translate(30px, 20px);}
+        #rotate:hover { transform: rotate(122deg);}
+        #scale:hover{ transform: scale(15)}
+        #skew:hover { transform:skew(20deg, 10deg)}
+    </style>
+</head>
+<body>
+    <div class="box" id="translate">Translate</div>
+    <div class="box" id="rotate">Rotate</div>
+    <div class="box" id="scale">Scale</div>
+    <div class="box" id="skew">Skew</div>
+</body>
+</html>
