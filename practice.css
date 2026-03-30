@@ -1,0 +1,34 @@
+/* For screens smaller than 600 px */
+
+@media (max-width: 600px) {
+    body{
+        background-color: lightblue;
+    }
+}
+
+/* For screens between 600 px and 1024px */
+
+@media (max-width: 600px) and (max-width: 1024px) {
+    body{
+        background-color: lightcoral;
+    }
+}
+
+/* For screens wider than or equal to 768px */
+
+@media (min-width: 768px) {
+    body{
+        background-color: lightgreen;
+    }
+}
+
+/* 
+Task:- Simple Background change with media query: */
+/* Create an html page. write a css media query that chnages the background-color 
+of the body element to lightyellow when the browser windows width is 600 px or less. */
+
+@media(min-width: 600px) {
+    body{
+        background-color: lightyellow;
+    }
+}
